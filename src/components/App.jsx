@@ -34,7 +34,6 @@ const App = () => {
   }
 
   const filterContacts = items => {
-    console.log("items", items, "filterWord", filter)
 
     return items.filter(item =>
       item.name.toLowerCase().includes(filter.toLowerCase())
